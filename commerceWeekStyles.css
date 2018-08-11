@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/**Header**/
+
+.cw_header {
+    background-image: url('https://i.imgur.com/RGPF7AC.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+   margin: -10px 0 0 -10px;
+}
+
+.cw_header_container{
+  width:100%;
+  text-align: center;
+}
+
+.cw_header_container img{
+  margin: 20% auto;
+  max-width: 40%;
+}
+@media screen and (max-width: 800px){
+  .cw_header_container img{
+    max-width: 100%;
+    margin: 15em auto;
+  }
+}
+/**body**/
+.cw_container{
+  display: block;
+  background-color: white;
+  margin: 0;
+  z-index: 1000;
+}
+.cw_content_title{
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: bold;
+}
+.cw_content_icc_title:after{
+  content: "";
+  display: block;
+  position: relative;
+  height: 3px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #070064;
+  top: 10px;
+}
+
+.cw_content{
+  background-color: white;
+  padding: 8% 0 5% 0;
+}
+.cw_content p{
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Open Sans";
+  text-align: justify;
+  font-weight: 600;
+}
+/**proyeccion**/
+.cw_1{
+  margin: 0 0 10% 0;
+}
+/** que es **/
+.cw_2{
+  background-color: white;
+}
+
+.cw_content_2_icc {
+  background-image: url('https://i.imgur.com/RGPF7AC.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10% 0;
+  width: 100%;
+  margin: -1px 0;
+  transform: scale(0);
+  position: relative;
+  transition: all 350ms ease-in-out;
+}
+.cw_quote{
+  width: auto;
+  background-color: white;
+  transform: scale(0);
+  transition: all 300ms cubic-bezier(0.39, -0.01, 0.82, 1.39);
+}
+
+.cw_show_zoomin{
+  transform: scale(1);
+}
+/**PONENTES**/
+.ponente{
+  margin: 10px 20px 0 0;
+}
+.ponente_perfil{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background-image: white;
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 3px #2f2b68;
+  background-position: center top;
+  transform: scale(0);
+  transition: all 300ms ease-in-out;
+}
+.ponente_info{
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  display: none;
+  transition: all 300ms ease-in-out;
+}
+.ponente_show_zoomin{
+  transform: scale(1);
+}
+/**kaiser**/
+.perfil_1 {
+  background-image: url(http://i.imgur.com/SKTpfhy.png);
+}
+/**Tovar**/
+.perfil_2{
+  background-image: url(http://i.imgur.com/tmEpYEV.png);
+}
+/**Mila de la Roca**/
+.perfil_3{
+  background-image: url(http://i.imgur.com/1d7FbOj.png);
+}
+/**Nunez**/
+.perfil_4{
+  background-image: url(http://i.imgur.com/YTjZAHz.png);
+}
+/**guerra**/
+.perfil_5{
+  background-image: url(http://i.imgur.com/T3LKlDV.png);
+}
+/**Barboza**/
+.perfil_6{
+  background-image: url(http://i.imgur.com/e86fsDs.png);
+}
+/**tang**/
+.perfil_7{
+  background-image: url(http://i.imgur.com/15iTGIJ.png);
+  background-size: contain;
+}
+/**velazques**/
+.perfil_8{
+  background-image: url(http://i.imgur.com/UeFk0E4.png);
+  background-size: contain;
+}
+/**chuorio**/
+.perfil_9{
+  background-image: url(http://i.imgur.com/ziATkda.png);
+  background-size: contain;
+}
+/**Aguilar**/
+.perfil_10{
+  background-image: url(http://i.imgur.com/IUQF9Ol.png);
+}
+/**Aponte**/
+.perfil_11{
+  background-image: url();
+}
+/**pedrosa**/
+.perfil_12{
+  background-image: url(http://i.imgur.com/aVM0zNQ.png);
+}
+/**pena**/
+.perfil_13{
+  background-image: url(http://i.imgur.com/5jctbZn.png);
+}
+/**Cordero**/
+.perfil_14{
+  background-image: url(http://i.imgur.com/aT1uKCK.png);
+}
+/**Hernandez**/
+.perfil_15{
+  background-image: url(http://i.imgur.com/BvRJMM0.png);
+}
+/**Harting**/
+.perfil_16{
+  background-image: url(http://i.imgur.com/27HBwH7.png);
+}
+/**Sanabria**/
+.perfil_17{
+  background-image: url(http://i.imgur.com/OmQLBxm.png);
+}
+
+.inscribete {
+  background-color: #2f2b68;
+  font-family: "Lato";
+  padding: 20px 40px;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+div.inscribete:hover {
+  box-shadow: 2px 40px  20px -25px rgba(0, 0, 0, 0.8);;
+  transform: translateY(-20px);
+}
+.inscribete a {
+  color: white;
+  text-decoration: none;
+}
