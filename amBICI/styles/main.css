@@ -47,7 +47,6 @@
 
 .main-submenu {
   max-height: 40px;
-  /* padding: 10px; */
   border-bottom: 4px solid var(--main-green);
 }
 
@@ -83,6 +82,7 @@
 .main-content-container {
   margin-top: 35%:
   padding: 0 10px;
+  min-height: 75vh;
 }
 .main-footer {
   background-color: var(--main-green);
